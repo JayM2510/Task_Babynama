@@ -59,11 +59,11 @@ class ThankYouScreen extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    top: 200, // Adjust the position as needed
+                    top: 200, 
                     left: 20,
                     right: 20,
                     child: Container(
-                      height: 450, // Adjust the height as needed
+                      height: 450, 
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                         begin: Alignment.topCenter,
@@ -121,7 +121,7 @@ class ThankYouScreen extends StatelessWidget {
                             style: ElevatedButton.styleFrom(
                               padding: EdgeInsets.symmetric(vertical: 18.0),
                               
-                              primary: Colors.white.withOpacity(0.8), // Set the primary color to transparent
+                              primary: Colors.white.withOpacity(0.8), 
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15.0),
                               ),

@@ -7,7 +7,7 @@ class HolisticPlanScreen extends StatefulWidget {
 }
 
 class _HolisticPlanScreenState extends State<HolisticPlanScreen> {
-  int selectedButtonIndex = 0; // Default to Button 1
+  int selectedButtonIndex = 0; 
 
   List<String> button1Text = [
     'Dedicated pediatrician to guide and support you with your child\'s specific needs',
@@ -46,7 +46,7 @@ class _HolisticPlanScreenState extends State<HolisticPlanScreen> {
         children: [
           Expanded(
             child: SingleChildScrollView(
-              padding: EdgeInsets.only(bottom: 60.0), // Adjust this value as needed
+              padding: EdgeInsets.only(bottom: 60.0), 
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -82,7 +82,7 @@ class _HolisticPlanScreenState extends State<HolisticPlanScreen> {
                     height: 300, 
                     margin: EdgeInsets.symmetric(vertical: 20),
                     child: Padding(
-                      padding: EdgeInsets.only(left: 20.0),
+                      padding: EdgeInsets.only(left: 20.0, right: 20.0),
                       child: Stack(
                         fit: StackFit.expand,
                         children: [

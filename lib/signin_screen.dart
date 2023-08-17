@@ -77,9 +77,7 @@ class _SignInScreenState extends State<SignInScreen> {
                         ),
                       ),
                       TextButton(
-                        onPressed: () {
-                          // Handle sign up button press
-                        },
+                        onPressed: () {},
                         child: Text(
                           "SIGN UP",
                           style: Theme.of(context).textTheme.headline1!.copyWith(
@@ -160,7 +158,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                   Spacer(),
                   Padding(
-                    padding: const EdgeInsets.only(bottom: 30),
+                    padding: const EdgeInsets.only(bottom: 20),
                     child: Row(
                       children: <Widget>[
                         Container(
@@ -217,6 +215,6 @@ class _SignInScreenState extends State<SignInScreen> {
   }
 }
 
-// Add your HomeScreen widget implementation here
+
 
 

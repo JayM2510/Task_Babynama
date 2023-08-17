@@ -15,11 +15,11 @@ class CategoriesSection extends StatelessWidget {
             color: Color(0xFF000000),
             imageName: 'black&whitebabypic.jpg',
             descriptionStyle: TextStyle(
-              fontSize: 16,
+              fontSize: 14,
               fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
-            descriptionOffset: Offset(0, 4),
+            descriptionOffset: Offset(0, 8),
             buttonLabel: 'Explore Basic Plan',
             onTap: () {
               Navigator.push(
@@ -38,7 +38,7 @@ class CategoriesSection extends StatelessWidget {
               fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
-            descriptionOffset: Offset(0, 12), 
+            descriptionOffset: Offset(0, 15), 
             buttonLabel: 'Explore Prime Plan',
             onTap: () {
               Navigator.push(
@@ -57,7 +57,7 @@ class CategoriesSection extends StatelessWidget {
               fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
-            descriptionOffset: Offset(0, 10), 
+            descriptionOffset: Offset(0, 12), 
             buttonLabel: 'Explore Holistic Plan',
             onTap: () {
               Navigator.push(
@@ -171,8 +171,8 @@ class CategoryContainer extends StatelessWidget {
               ),
             ),
             Positioned(
-              bottom: 10.0,
-              left: 15.0,
+              bottom: 14.0,
+              left: 10.0,
               right: 20.0,
               child: Transform.translate(
                 offset: descriptionOffset,
@@ -183,13 +183,13 @@ class CategoryContainer extends StatelessWidget {
                       description,
                       style: descriptionStyle,
                     ),
-                    SizedBox(height: 4),
+                   
                     ElevatedButton(
                       onPressed: onTap,
                       style: ElevatedButton.styleFrom(
                         primary: Colors.orangeAccent, 
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20.0),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         padding: EdgeInsets.symmetric(horizontal: 16.0), 
                       ),

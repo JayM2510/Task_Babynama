@@ -16,9 +16,7 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: Icon(Icons.menu),
-                    onPressed: () {
-                      // TODO: Add menu button functionality
-                    },
+                    onPressed: () {},
                   ),
                   Text(
                     'BABYNAMA',
@@ -30,9 +28,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   IconButton(
                     icon: Icon(Icons.notifications),
-                    onPressed: () {
-                      // TODO: Add notifications button functionality
-                    },
+                    onPressed: () {},
                   ),
                 ],
               ),
@@ -46,8 +42,6 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-// ... Rest of the code remains the same
 
 
 
@@ -91,7 +85,7 @@ class SearchField extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Icon(
-                  Icons.filter_list, // Filter icon
+                  Icons.filter_list,
                   color: kPrimaryColor,
                 ),
               ),

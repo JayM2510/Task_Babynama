@@ -8,21 +8,19 @@ import 'package:task_babynama/lib/prime_plan.dart';
 import 'package:task_babynama/lib/thankyou_purchase.dart';
 import 'package:task_babynama/signin_screen.dart';
 
-void main() => runApp(MyApp());
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Auth Screen 1',
+      title: 'BabynamaTask',
       theme: ThemeData(
         brightness: Brightness.dark,
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: kBackgroundColor,
         textTheme: TextTheme(
           headline1: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-          button: TextStyle(color: Colors.black), // Adjust button text color
+          button: TextStyle(color: Colors.black), 
           bodyText1: TextStyle(color: Colors.white, fontWeight: FontWeight.normal),
         ),
         inputDecorationTheme: InputDecorationTheme(
@@ -56,7 +54,7 @@ class WelcomeScreen extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              SizedBox(height: 70), // Add spacing from top
+              SizedBox(height: 70), 
               RichText(
                 text: TextSpan(
                   children: [
@@ -119,7 +117,7 @@ class WelcomeScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 20), // Add spacing between titles
+              SizedBox(height: 20), 
               Text(
                 "Nurturing Tiny Lives",
                 textAlign: TextAlign.center,
@@ -128,14 +126,14 @@ class WelcomeScreen extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
               ),
-              SizedBox(height: 20), // Add spacing after titles
-              Expanded(child: Container()), // Expand to push text and dots to the bottom
+              SizedBox(height: 20), 
+              Expanded(child: Container()), 
               Text(
                 "Explore our Comprehensive\n Baby Care Plans",
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.headline1!.copyWith(fontSize: 18),
               ),
-              SizedBox(height: 20), // Add spacing before button
+              SizedBox(height: 20), 
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -146,7 +144,7 @@ class WelcomeScreen extends StatelessWidget {
                   Icon(Icons.circle, size: 5, color: Colors.white),
                 ],
               ),
-              SizedBox(height: 20), // Add spacing between dots and button
+              SizedBox(height: 20), 
               GestureDetector(
                 onTap: () {
                   Navigator.push(
@@ -182,7 +180,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 20), // Add spacing after button
+              SizedBox(height: 20), 
             ],
           ),
         ],
