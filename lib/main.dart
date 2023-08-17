@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:task_babynama/categories_section.dart';
 import 'package:task_babynama/constants.dart';
+import 'package:task_babynama/home_screen.dart';
+import 'package:task_babynama/lib/basic_plan.dart';
+import 'package:task_babynama/lib/holistic_plan.dart';
+import 'package:task_babynama/lib/prime_plan.dart';
+import 'package:task_babynama/lib/thankyou_purchase.dart';
 import 'package:task_babynama/signin_screen.dart';
 
 void main() => runApp(MyApp());
@@ -133,11 +139,11 @@ class WelcomeScreen extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.circle, size: 7, color: Colors.white),
+                  Icon(Icons.circle, size: 5, color: Colors.white),
                   SizedBox(width: 5),
-                  Icon(Icons.circle, size: 7, color: Colors.white),
+                  Icon(Icons.circle, size: 5, color: Colors.white),
                   SizedBox(width: 5),
-                  Icon(Icons.circle, size: 7, color: Colors.white),
+                  Icon(Icons.circle, size: 5, color: Colors.white),
                 ],
               ),
               SizedBox(height: 20), // Add spacing between dots and button
